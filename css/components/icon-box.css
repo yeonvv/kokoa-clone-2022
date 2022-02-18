@@ -1,0 +1,29 @@
+.icon-row-more,
+.icon-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.icon-row-more__icon,
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row-more__icon i,
+.icon-row__icon i {
+  margin-bottom: 30px;
+}
+.icon-row__icon:nth-child(2) i {
+  margin-bottom: 20px;
+}
+.icon-row,
+.icon-row-more:nth-child(3) {
+  border-bottom: var(--border);
+  padding-bottom: 45px;
+  margin-bottom: 20px;
+}
+.blank-box {
+  width: 80.75px;
+  height: 78px;
+}
